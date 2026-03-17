@@ -1,0 +1,24 @@
+[project]
+name = "logit-lens"
+version = "0.1.0"
+description = "Logit Lens (nostalgebraist, 2020) terminal visualizer for GPT-2 using TransformerLens"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [
+    { name = "Aragorn Wang" },
+]
+dependencies = [
+    "torch>=2.10.0",
+    "transformer-lens>=2.17.0",
+    "rich>=14.3.3",
+    "typer>=0.24.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
+
+[project.urls]
+Repository = "https://github.com/aragorn-w/logit-lens"
